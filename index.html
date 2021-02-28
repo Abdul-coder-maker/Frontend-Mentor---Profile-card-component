@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    
+    <title>Frontend Mentor | Profile card component</title>
+    <link rel="stylesheet" href="./css/tailwind.css">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  </head>
+  <body
+    class="flex items-center justify-center w-screen h-screen bg-darkCyanBg"
+  >
+    <div
+      class="relative bg-white shadow-2xl h-91 w-87 rounded-2xl"
+    >
+      <div class="relative bg-top h-ofImg rounded-t-2xl">
+        <div class="flex justify-center">
+          <img
+            class="absolute bottom-0 left-auto block max-w-full border-4 border-white rounded-full top-20"
+            src="/images/image-victor.jpg"
+            alt="victer's image"
+          />
+        </div>
+      </div>
+      <div class="flex flex-col items-center h-24 mt-16 clr-dark-blue">
+        <p class="text-xl font-bold">
+          Victor Crest <span class="font-light clr-gray">26</span>
+        </p>
+        <p class="font-light clr-gray">London</p>
+      </div>
+      <div class="absolute bottom-0 flex justify-around w-full px-5 py-6 border-t rounded-b-2xl">
+        <div>
+          <div class="flex flex-col items-center justify-center">
+            <div class="font-bold clr-dark-blue">80K</div>
+            <div class="text-sm font-light clr-gray">Followers</div>
+          </div>
+        </div>
+        <div>
+          <div class="flex flex-col items-center justify-center">
+            <div class="font-bold clr-dark-blue">80K</div>
+            <div class="text-sm font-light clr-gray">Likes</div>
+          </div>
+        </div>
+        <div>
+          <div class="flex flex-col items-center justify-center">
+            <div class="font-bold clr-dark-blue">80K</div>
+            <div class="text-sm font-light clr-gray">Photos</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,45 @@
+.div {
+  border: 1px solid red;
+}
+
+
+body {
+  font-family: 'Kumbh Sans', sans-serif !important;
+  background-image: url(./images/bg-pattern-top.svg), url(./images/bg-pattern-bottom.svg);
+  background-position: top 270% left -70%, bottom 340% right -60%;
+  background-repeat: no-repeat;
+  
+  padding-top: 90px;
+  padding: 30px;
+}
+
+.bg-top {
+  background-image: url('./images/bg-pattern-card.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.clr-dark-blue {
+  color: hsl(229, 23%, 23%);
+}
+
+.clr-gray {
+  color: hsl(227, 10%, 46%);
+}
+
+.bg-darkCyanBg {
+  background-color: hsl(185, 75%, 39%);
+}
+
+.w-87  {
+  width: 21.75rem;
+}
+
+.h-91 {
+  height: 23rem;
+}
+
+.h-ofImg {
+  height: 36%;
+}
